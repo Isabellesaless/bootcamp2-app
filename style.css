@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f1ea;
+  color: #2e2620;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+header h1 {
+  font-size: 2rem;
+}
+
+header p {
+  color: #6b5f4f;
+  margin-top: 5px;
+}
+
+.busca {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+#campo-busca {
+  padding: 10px;
+  width: 300px;
+  max-width: 80vw;
+  border: 1px solid #cbbfa8;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+#botao-buscar {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  background-color: #7a5c3e;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+#botao-buscar:hover {
+  background-color: #5f4630;
+}
+
+#resultado {
+  max-width: 700px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.livro-card {
+  display: flex;
+  gap: 16px;
+  background: white;
+  border: 1px solid #e0d8c8;
+  border-radius: 8px;
+  padding: 16px;
+  align-items: center;
+}
+
+.livro-card img {
+  width: 80px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 4px;
+  background-color: #ddd;
+}
+
+.livro-info h2 {
+  font-size: 1.1rem;
+  margin-bottom: 6px;
+}
+
+.livro-info p {
+  font-size: 0.9rem;
+  color: #4a4030;
+  margin-top: 2px;
+}
+
+.mensagem {
+  text-align: center;
+  color: #6b5f4f;
+  font-style: italic;
+}
