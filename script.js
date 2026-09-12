@@ -1,5 +1,5 @@
 // script.js
-
+// Consome a API pública Open Library para buscar livros pelo título digitado
 async function buscarLivros(termo) {
   const area = document.getElementById("resultado");
   area.innerHTML = "<p class='mensagem'>Carregando...</p>";
