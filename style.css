@@ -92,6 +92,72 @@ header p {
   margin-top: 2px;
 }
 
+.botao-favoritar {
+  margin-top: 8px;
+  padding: 6px 14px;
+  border: none;
+  border-radius: 6px;
+  background-color: #b08b5c;
+  color: white;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+
+.botao-favoritar:hover {
+  background-color: #8f6f47;
+}
+
+#secao-favoritos {
+  max-width: 700px;
+  margin: 40px auto 0;
+}
+
+#secao-favoritos h2 {
+  font-size: 1.3rem;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+#lista-favoritos {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.favorito-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  border: 1px solid #e0d8c8;
+  border-radius: 8px;
+  padding: 12px 16px;
+}
+
+.favorito-info strong {
+  display: block;
+  margin-bottom: 4px;
+}
+
+.favorito-info p {
+  font-size: 0.85rem;
+  color: #4a4030;
+}
+
+.botao-remover {
+  padding: 6px 14px;
+  border: none;
+  border-radius: 6px;
+  background-color: #a04a3f;
+  color: white;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+
+.botao-remover:hover {
+  background-color: #7f3a31;
+}
+
 .mensagem {
   text-align: center;
   color: #6b5f4f;
